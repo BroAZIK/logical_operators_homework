@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a%10
+    c = a//10
+    return (x+c+1)%2==0
